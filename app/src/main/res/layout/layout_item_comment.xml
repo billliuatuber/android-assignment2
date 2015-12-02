@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/ivCommentProfile"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/ivCommentProfile"
+        android:layout_toRightOf="@+id/ivCommentProfile"
+        android:layout_toEndOf="@+id/ivCommentProfile">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="comments"
+            android:id="@+id/tvCommentContent"
+            android:textSize="14sp"
+            android:lineSpacingMultiplier="1.2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="create time"
+            android:id="@+id/tvCommentTime"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/light_gray_text" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

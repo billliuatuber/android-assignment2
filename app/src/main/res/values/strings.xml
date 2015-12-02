@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Instagram</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="like_count">%s likes</string>
+    <string name="fetch_error"> Failed to fetch from Instagram</string>
+    <string name="view_all_comments">View all %1$d comments</string>
+</resources>
